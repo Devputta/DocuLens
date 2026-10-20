@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Devputta/DocuLens">
-    <img src="https://raw.githubusercontent.com/Devputta/DocuLens/blob/main/QR/qrforge_1024px%20(1).png" alt="DocuLens Logo" width="220" />
+  <a href="https://github.com/Devputta/DocuLens/blob/main/QR/qrforge_1024px%20(1).png">
+    <img src="https://github.com/Devputta/DocuLens/blob/main/QR/qrforge_1024px%20(1).png" alt="DocuLens Logo" width="220" />
   </a>
 </p>
 
