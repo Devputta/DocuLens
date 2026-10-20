@@ -1,3 +1,32 @@
+<p align="center">
+  <strong>DocuLens</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Devputta/DocuLens">
+    <img src="https://raw.githubusercontent.com/Devputta/DocuLens/main/public/logo.png" alt="DocuLens Logo" width="220" />
+  </a>
+</p>
+
+<p align="center">
+  <strong>
+    A document intelligence application designed to help users explore document
+    content, organize information, and simplify document-based analysis through
+    a structured workflow, with an emphasis on clarity, source verification,
+    and responsible use.
+  </strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Devputta/DocuLens">
+    <img src="https://img.shields.io/badge/GitHub-Repository-181717?logo=github&logoColor=white" alt="GitHub Repository" />
+  </a>
+  <img src="https://img.shields.io/badge/Project-DocuLens-4F46E5" alt="DocuLens" />
+  <img src="https://img.shields.io/badge/Document-Intelligence-0F766E" alt="Document Intelligence" />
+  <img src="https://img.shields.io/badge/Privacy-Awareness-2563EB" alt="Privacy Awareness" />
+  <img src="https://img.shields.io/badge/Documentation-Open%20Source-64748B" alt="Documentation" />
+</p>
+
 # DocuLens
 
 **Document Intelligence, Structured Analysis, and Source-Grounded Answers**
@@ -647,3 +676,15 @@ If a license file is present, review it before copying, modifying, distributing,
 DocuLens is intended to make working with document information more structured and understandable. Its reliability depends on the quality of the source documents, the implemented processing workflow, the configuration of any external services, and the user's verification of important results.
 
 **Build transparently. Document accurately. Verify important information.**
+
+<p align="center">  <a href="https://github.com/Devputta/Drafts-might-be-needed-/blob/main/LOGO/Gemini_Generated_Image_1ppnm1ppnm1ppnm1%20(1).jfif" target="_blank" rel="noopener noreferrer">    <img src="https://raw.githubusercontent.com/Devputta/Drafts-might-be-needed-/main/LOGO/Gemini_Generated_Image_1ppnm1ppnm1ppnm1%20(1).jfif" alt="Doculens Project Logo" width="220" />  </a></p>
+
+
+---
+
+<p align="center">
+  <strong>DocuLensLink</strong>
+  <br />
+  Private by design. Ephemeral by default.
+</p>
+
