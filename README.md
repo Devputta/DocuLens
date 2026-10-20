@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/Devputta/DocuLens">
-    <img src="https://raw.githubusercontent.com/Devputta/DocuLens/main/public/logo.png" alt="DocuLens Logo" width="220" />
+    <img src="https://raw.githubusercontent.com/Devputta/DocuLens/blob/main/QR/qrforge_1024px%20(1).png" alt="DocuLens Logo" width="220" />
   </a>
 </p>
 
