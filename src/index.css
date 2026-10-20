@@ -1,0 +1,138 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Newsreader", "Georgia", "Times New Roman", serif;
+  --font-display: "Instrument Serif", "Newsreader", serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* DocuLens Dark Editorial Palette */
+  --color-paper: #0F1217;
+  --color-paper-light: #161B22;
+  --color-paper-dim: #1D242E;
+  --color-paper-border: #262D38;
+  --color-paper-border-dark: #343D4B;
+  --color-ink: #E6E9EF;
+  --color-ink-muted: #9AA3B2;
+  --color-ink-faint: #6B7585;
+  --color-accent: #E8A94A;
+  --color-accent-hover: #D4943A;
+  --color-accent-subtle: #2A2112;
+  --color-accent-border: #5A4520;
+  --color-accent-text: #1A1305;
+  --color-destructive: #C23B3B;
+
+  /* Status Colors Dark Theme Remappings */
+  --color-emerald-50: rgba(16, 185, 129, 0.12);
+  --color-emerald-100: rgba(16, 185, 129, 0.18);
+  --color-emerald-200: rgba(16, 185, 129, 0.28);
+  --color-emerald-300: rgba(16, 185, 129, 0.45);
+  --color-emerald-700: #34D399;
+  --color-emerald-800: #6EE7B7;
+  --color-emerald-900: #A7F3D0;
+
+  --color-amber-50: rgba(232, 169, 74, 0.12);
+  --color-amber-100: rgba(232, 169, 74, 0.18);
+  --color-amber-200: rgba(232, 169, 74, 0.28);
+  --color-amber-300: rgba(232, 169, 74, 0.45);
+  --color-amber-500: #E8A94A;
+  --color-amber-700: #F6C177;
+  --color-amber-800: #FCD34D;
+  --color-amber-900: #FDE68A;
+
+  --color-rose-50: rgba(244, 63, 94, 0.12);
+  --color-rose-100: rgba(244, 63, 94, 0.18);
+  --color-rose-200: rgba(244, 63, 94, 0.28);
+  --color-rose-300: rgba(244, 63, 94, 0.45);
+  --color-rose-700: #FB7185;
+  --color-rose-800: #FDA4AF;
+  --color-rose-900: #FECDD3;
+
+  --color-red-50: rgba(239, 68, 68, 0.12);
+  --color-red-100: rgba(239, 68, 68, 0.18);
+  --color-red-200: rgba(239, 68, 68, 0.28);
+  --color-red-300: rgba(239, 68, 68, 0.45);
+  --color-red-700: #F87171;
+  --color-red-800: #FCA5A5;
+  --color-red-900: #FECACA;
+
+  --color-blue-50: rgba(59, 130, 246, 0.12);
+  --color-blue-100: rgba(59, 130, 246, 0.18);
+  --color-blue-200: rgba(59, 130, 246, 0.28);
+  --color-blue-300: rgba(59, 130, 246, 0.45);
+  --color-blue-700: #60A5FA;
+  --color-blue-800: #93C5FD;
+  --color-blue-900: #BFDBFE;
+
+  --color-stone-50: rgba(148, 163, 184, 0.08);
+  --color-stone-100: rgba(148, 163, 184, 0.14);
+  --color-stone-200: rgba(148, 163, 184, 0.22);
+  --color-stone-300: rgba(148, 163, 184, 0.35);
+  --color-stone-700: #94A3B8;
+  --color-stone-800: #CBD5E1;
+  --color-stone-900: #E2E8F0;
+}
+
+/* Custom dark scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(107, 117, 133, 0.35);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(107, 117, 133, 0.6);
+}
+
+body {
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+}
+
+h1, h2, h3 {
+  letter-spacing: 0;
+  word-spacing: 0.06em;
+}
+
+/* Global 150ms transitions and amber focus rings for interactive elements */
+button, input, select, textarea, a {
+  transition-duration: 150ms;
+}
+
+/* Clean focus rings across all interactive elements (:focus-visible only, never on click) */
+:focus-visible {
+  outline: 2px solid var(--color-accent) !important;
+  outline-offset: 2px !important;
+}
+
+:focus:not(:focus-visible) {
+  outline: none !important;
+}
+
+/* Ensure no outline or ring on non-interactive elements, containers, cards or text */
+div:not([tabindex]):not([role="button"]):focus,
+div:not([tabindex]):not([role="button"]):focus-visible,
+p:focus,
+p:focus-visible,
+span:focus,
+span:focus-visible {
+  outline: none !important;
+}
+
+/* Print styling for clean export / reader mode */
+@media print {
+  header, nav, aside, .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}

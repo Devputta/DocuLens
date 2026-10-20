@@ -1,0 +1,38 @@
+{
+  "id": "/",
+  "name": "DocuLens — Local-First Document Intelligence",
+  "short_name": "DocuLens",
+  "description": "Human-centric, minimalist workspace for PDF ingestion, evidence-based lexical search, citation-verified inquiries, table extraction, and revision comparison with complete offline accessibility.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#0F1217",
+  "background_color": "#0F1217",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

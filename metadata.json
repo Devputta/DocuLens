@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Remix Remix DocuLens — Local-First Document Intelligence",
+  "description": "Human-centric, minimalist workspace for PDF ingestion, evidence-based lexical search, citation-verified inquiries, table extraction, and revision comparison with complete offline accessibility.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
